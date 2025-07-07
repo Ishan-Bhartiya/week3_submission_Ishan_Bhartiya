@@ -7,7 +7,7 @@ from std_msgs.msg import String
 class MinimalPublisher(Node):
 
     def __init__(self):
-        super().__init__('Publisher')
+        super().__init__('Publisher') #Sets the name of this node to Publisher
         self.publisher_=self.create_publisher(String, 'new',10) #Creating publisher object, which publishes String type variable on the topic new
         timer_period=1/15
         self.timer=self.create_timer(timer_period,self.timer_callback) #Creating timer object,calls the timer_callback function every 1/15 seconds
