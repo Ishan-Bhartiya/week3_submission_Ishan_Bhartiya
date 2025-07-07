@@ -43,4 +43,8 @@ Path of node : kratos_Ishan_Bhartiya/kratos_new_q4/kratos_new_q4/Q4_Publisher.py
 
 This file belongs to Question 4 and is responsible for publishing on 4 different topics, 'second', 'minute', 'hour' and 'clock', at a rate of 1Hz. As their names suggest, the messages being published are time parameters, namely seconds, minutes, hours, and lastly time is published as a string with the format Hours:Minutes:Seconds
 
+The following is the RQT graph for the question
+
+file:///home/no/Pictures/Screenshots/Screenshot%20from%202025-07-07%2014-19-33.png
+
 -------------------------------------------------------------------------------------------------
